@@ -18,7 +18,7 @@ export class RestauratsService {
         return this.http.get<Restaurant[]>(`${MEAT_API}/restaurants`)
             .pipe(
                 catchError(ManipladorErros.CapturaErro)
-            );;
+            );
 
 
     }
