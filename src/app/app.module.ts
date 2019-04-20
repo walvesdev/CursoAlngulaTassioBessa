@@ -28,7 +28,9 @@ import { RestauratsService } from './restaurants/restaurants.service';
     HttpClientModule,
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [RestauratsService],
+  providers: [
+      RestauratsService
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
